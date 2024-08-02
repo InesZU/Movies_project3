@@ -8,10 +8,6 @@ class IStorage(ABC):
 
     @abstractmethod
     def add_movie(self, title, year, rating):
-        """
-
-        :rtype: object
-        """
         pass
 
     @abstractmethod
