@@ -96,14 +96,8 @@ class MovieApp:
         for title, info in movies_to_display:
             year=info['year']
             rating=info['rating']
-            imdb_id=info.get('imdb_id', 'N/A')
-            imdb_url=f"https://www.imdb.com/title/{imdb_id}/" if imdb_id != 'N/A' else "#"
-            notes=" | ".join(info.get('notes', []))  # Join notes with a separator
             movie_grid_html+=f"""
         <li class="movie-item">
-            <a href="{imdb_url}" target="_blank">
-                <div class="tooltip">{notes}</div>
-            </a>
             <p>{title} - Year: {year} - Rating: {rating}</p>
         </li>
         """
