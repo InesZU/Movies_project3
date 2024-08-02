@@ -9,10 +9,10 @@ def main():
     storage = StorageCsv ('movies.csv')
 
     # Create a MovieApp object with the Storage object
-    movie_app = MovieApp(storage)
+    app = MovieApp(storage)
 
     # Run the application
-    movie_app.run()
+    app.run()
 
 
 if __name__ == "__main__":

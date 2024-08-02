@@ -13,7 +13,7 @@ class MovieApp:
         """
         if not isinstance(storage, IStorage):
             raise TypeError("storage must be an IStorage object")
-        self._storage=storage
+        self._storage = storage
 
     def _command_list_movies(self):
         """List all movies."""
