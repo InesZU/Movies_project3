@@ -1,0 +1,65 @@
+{
+    "The Shawshank Redemption": {
+        "year": 1994,
+        "rating": 9.3,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_SX300.jpg",
+        "imdb_id": "tt0111161"
+    },
+    "Pulp Fiction": {
+        "year": 1994,
+        "rating": 8.9,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+        "imdb_id": "tt0110912"
+    },
+    "Star Wars: Episode V": {
+        "year": 1980,
+        "rating": 8.7,
+        "poster": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+        "imdb_id": "tt0080684"
+    },
+    "Forrest Gump": {
+        "year": 1994,
+        "rating": 8.8,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+        "imdb_id": "tt0109830"
+    },
+    "Everything Everywhere All At Once": {
+        "year": 2022,
+        "rating": 7.8,
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTdiOTIyZTQtNmQ1OS00NjZlLWIyMTgtYzk5Y2M3ZDVmMDk1XkEyXkFqcGdeQXVyMTAzMDg4NzU0._V1_SX300.jpg",
+        "imdb_id": "tt6710474",
+        "notes": [
+            "haven't seen this yet"
+        ]
+    },
+    "12 Angry Men": {
+        "year": 1957,
+        "rating": 9.0,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg",
+        "imdb_id": "tt0050083"
+    },
+    "The Dark Knight": {
+        "year": 2008,
+        "rating": 9.0,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg",
+        "imdb_id": "tt0468569"
+    },
+    "The Godfather: Part II": {
+        "year": 1974,
+        "rating": 9.0,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+        "imdb_id": "tt0071562"
+    },
+    "The Godfather": {
+        "year": 1972,
+        "rating": 9.2,
+        "poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+        "imdb_id": "tt0068646"
+    },
+    "The Room": {
+        "year": 2003,
+        "rating": 3.6,
+        "poster": "https://m.media-amazon.com/images/M/MV5BN2IwYzc4MjEtMzJlMS00MDJlLTkzNDAtN2E4NGNkZjg0MDgxXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_SX300.jpg",
+        "imdb_id": "tt0368226"
+    }
+}

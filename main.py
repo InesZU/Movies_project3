@@ -1,18 +1,29 @@
 from storage_json import StorageJson
-from movie_app import MovieApp
 from storage_csv import StorageCsv
+from movie_app import MovieApp
 
 
 def main():
-    # Create a StorageJson object
-    storage = StorageJson('movies.json')
-    storage = StorageCsv ('movies.csv')
+    print("Choose storage method:")
+    print("1. JSON")
+    print("2. CSV")
 
-    # Create a MovieApp object with the Storage object
-    app = MovieApp(storage)
+    choice = input("Enter choice (1 or 2): ").strip()
 
-    # Run the application
-    app.run()
+    # Create a storage object based on user's choice
+    if choice == '1':
+        storage = StorageJson('movies.json')
+    elif choice == '2':
+        storage = StorageCsv('movies.csv')
+    else:
+        print("Invalid choice. Defaulting to JSON storage.")
+        storage = StorageJson('movies.json')
+
+    # Create a MovieApp object with the selected storage object
+    movie_app = MovieApp(storage)
+
+    # Run the movie application
+    movie_app.run()
 
 
 if __name__ == "__main__":
